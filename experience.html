@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resumecss.css">
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+</style>
+</head>
+<body>
+
+    <h2 align="center">My E-Resume</h2>
+
+    <div class="scrollmenu">
+      <a href="index.html">Home</a>
+      <a href="personal.html">Personal</a>
+      <a href="skill.html">Skill</a>
+      <a href="experience.html">Experience</a>
+      <a href="education.html">Educational</a>
+      <a href="contact.html">Contact</a>
+    
+    </div>
+
+<h2>Experience</h2>
+
+
+
+<br>
+  <div align="center">
+    
+    
+    
+    
+    </div>
+
+    
+
+    <div class="row">
+      <div class="column" style="background-color:#54d5fc;">
+        <b>
+          <h2>Work Experience:</h2>
+
+          <p>SOFREITA MINI MARKET</p>
+          <p>Kuala Terengganu, Terengganu.</p>
+          <hr>
+          <ul>
+            <li><p>Work as cashier at family owned grocery store.</p></li>
+            <li><p>Experienced in communicate and dealing with customer.</p></li>
+            <li><p>Well verse with item distribution and allocation.</p></li> 
+            <li><p>Great in money management.</p></li> 
+          </ul>
+        
+      
+        
+      </div>
+      <div class="column" style="background-color:#c822ed;">
+        
+        <img src="kedairuncit.jpg" style="width:90%">
+        
+      </div>
+
+    </div>    
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+</body>
+</html>
